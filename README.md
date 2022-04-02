@@ -24,8 +24,8 @@ Desse modo, o presente trabalho tem como desafio desenvolver e implementar um al
 
 ## 🔨 Funcionalidades principais do projeto
 
-- `Funcionalidade 1` `caminhoMinimo`: Função responsável por apresentar o estado atual da criptoanálise. 
-- `Funcionalidade 2` `movimentar`: Função responsável por fazer análise de frequência no texto criptografadoa.
-- `Funcionalidade 3` `calcularCelInalcancaveis`: Função responsável por realizar casamento exato de caracteres no texto criptografado.
-- `Funcionalidade 4` `desenharMelhorCaminho`: Função responsável por realizar casamento aproximado de caracteres no texto parcialmente decifrado.
-- `Funcionalidade 5` `calcularCelInalcancaveis`: Função responsável por alterar chave de criptografia.
+- `Funcionalidade 1` `estadoAtualCriptografia`: Função responsável por apresentar o estado atual da criptoanálise. 
+- `Funcionalidade 2` `frequencia`: Função responsável por fazer análise de frequência no texto criptografadoa.
+- `Funcionalidade 3` `casamentoPadrao`: Função responsável por realizar casamento exato de caracteres no texto criptografado.
+- `Funcionalidade 4` `shiftAndAproximado`: Função responsável por realizar casamento aproximado de caracteres no texto parcialmente decifrado.
+- `Funcionalidade 5` `modificaCaracter`: Função responsável por alterar chave de criptografia.
