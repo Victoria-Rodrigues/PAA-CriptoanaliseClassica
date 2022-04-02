@@ -13,35 +13,7 @@ int main(){
     int opcao, cont=0;
     char nomeArquivo[50];
     char c1, c2;
-    printf("Digite o nome do arquivo de entradas:\n");
-    scanf("%s", nomeArquivo);
-    initCriptografia(&chave, nomeArquivo);
-    modificaCaracter(&chave, 'I','A');
-    modificaCaracter(&chave, 'M', 'E');
-    modificaCaracter(&chave, 'K', 'O');
-    modificaCaracter(&chave, 'L', 'S');
-    modificaCaracter(&chave, 'U', 'R');
-    modificaCaracter(&chave, 'P', 'T');
-    modificaCaracter(&chave, 'N', 'D');
-    modificaCaracter(&chave, 'X', 'I');
-    modificaCaracter(&chave, 'B', 'U');
-    modificaCaracter(&chave, 'T', 'N');
-    modificaCaracter(&chave, 'D', 'M');
-    modificaCaracter(&chave, 'J', 'C');
-    modificaCaracter(&chave, 'Z', 'P');
-    modificaCaracter(&chave, 'W', 'L');
-    modificaCaracter(&chave, 'Q', 'V');
-    modificaCaracter(&chave, 'C', 'G');
-    modificaCaracter(&chave, 'R', 'Q');
-    modificaCaracter(&chave, 'S', 'H');
-    modificaCaracter(&chave, 'G', 'Z');
-    modificaCaracter(&chave, 'H', 'F');
-    modificaCaracter(&chave, 'Y', 'B');
-    modificaCaracter(&chave, 'A', 'J');
-    modificaCaracter(&chave, 'O', 'X');
-    modificaCaracter(&chave, 'E', 'Y');
-    modificaCaracter(&chave, 'F', 'K');
-    modificaCaracter(&chave, 'V', 'W');
+    
     while (1){
         printf("\n\n=================================================\n");
         printf("========================MENU=====================\n");
